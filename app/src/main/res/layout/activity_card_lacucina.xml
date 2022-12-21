@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/cardView"
+    android:layout_margin="20dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+        >
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:id="@+id/image"
+          android:src="@drawable/bbqpizza"
+android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/amita"
+            android:text="BBQ Pizza"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:text="price - 50 NIS"
+            android:textSize="20dp"
+            android:layout_height="70dp"
+            android:fontFamily="@font/amita"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
