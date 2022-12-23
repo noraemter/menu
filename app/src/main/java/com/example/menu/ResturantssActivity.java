@@ -36,26 +36,20 @@ public class ResturantssActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                openActivity2();
+                 openActivity2();
             }
         });
         button2.setOnClickListener(new View.OnClickListener()
-
         {
-
             @Override
             public void onClick (View v){
-
-
-                openActivity3();
+                 openActivity3();
             }
         });
     }
 
     public void openActivity2() {
-        Intent intent = new Intent(this, LacucinaActivity.class);
+        Intent intent = new Intent(this, listview_lacucina.class);
         startActivity(intent);
     }
     public void openActivity3() {

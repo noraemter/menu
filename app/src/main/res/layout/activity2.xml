@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/teal_700"
-    tools:context=".ResturantsActivity"
+    tools:context=".ResturantssActivity"
     >
     <ImageView
         android:id="@+id/imageView"
@@ -47,6 +47,7 @@
         android:layout_height="wrap_content"
         android:text="View Macho Menu"
         android:textSize="20dp"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="268dp"
         tools:layout_editor_absoluteY="382dp"
         android:layout_margin="30dp"

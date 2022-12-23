@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+    android:src="@drawable/bbqpizza"
+        android:id="@+id/img"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:text="Pizza"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="70dp"
+     android:textSize="30dp"
+        android:fontFamily="@font/amita"
+        />
+</RelativeLayout>
